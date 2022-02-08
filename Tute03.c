@@ -13,7 +13,15 @@ sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
 int main() {
+  int number,x,sum=0;
   
+  printf("Enter the number = ");
+  scanf("%d",&number);
+
+  for(x=1;x<=number;++x){
+    sum=sum+x;
+  }
+  printf("Sum is = %d",sum);
   return 0;
 }
 
